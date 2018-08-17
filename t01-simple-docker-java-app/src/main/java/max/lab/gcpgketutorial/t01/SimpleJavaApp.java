@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SimpleJavaApp {
 
     @RequestMapping("/")
-    public String hello() {
+    String hello() {
         return "Hello World!";
     }
 
